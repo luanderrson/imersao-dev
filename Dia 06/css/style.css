@@ -1,0 +1,51 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 400px;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png');
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo-imersao {
+  width: 120px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.logo-azul {
+  width: 40px;
+  position: absolute;
+  bottom: 50px;
+}
+
+span {
+  font-family: 'Poppins', sans-serif;
+  width: 150px;
+  left: 630px;
+  position: absolute;
+  bottom: 20px;
+  color: white;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+th, tr, td {
+  border: solid 1px white;
+  color: white;
+}

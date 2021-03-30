@@ -1,4 +1,5 @@
-var nome = prompt("Digite seu nome: ");
-var anoNasc = prompt("Ano de nascimento: ");
-parseInt(anoNasc);
-alert("Então seu nome é " + nome + " sua idade eh " + (2021-anoNasc));
+var valorEmDolar = prompt("Qual o valor em dolar que você quer converter?");
+parseFloat(valorEmDolar);
+var valorEmReal = valorEmDolar * 5.50;
+
+alert("R$: " + valorEmReal.toFixed(2));
